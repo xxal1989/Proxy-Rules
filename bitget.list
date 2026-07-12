@@ -1,0 +1,25 @@
+# > Bitget & Bitget Wallet (BitKeep) 分流规则
+# > 适用客户端: Quantumult X
+# > 更新时间: 2026-07-12
+
+# ----- Bitget 交易所相关域名 -----
+HOST-KEYWORD, bitget, Bitget
+HOST-SUFFIX, bitget.com, Bitget
+HOST-SUFFIX, bitget.sh, Bitget
+HOST-SUFFIX, bitget.site, Bitget
+HOST-SUFFIX, bitget.net, Bitget
+HOST-SUFFIX, bgapi.io, Bitget
+HOST-SUFFIX, bgexchange.com, Bitget
+HOST-SUFFIX, bitgetapp.com, Bitget
+
+# ----- Bitget Wallet (原 BitKeep) 相关域名 -----
+HOST-KEYWORD, bitkeep, Bitget
+HOST-SUFFIX, bitkeep.com, Bitget
+HOST-SUFFIX, bitkeep.open, Bitget
+HOST-SUFFIX, bitget.io, Bitget
+HOST-SUFFIX, bitgetwallet.com, Bitget
+
+# ----- 辅助 CDN、验证及下载服务 -----
+HOST-SUFFIX, bgimages.com, Bitget
+HOST-SUFFIX, bginflow.com, Bitget
+HOST-SUFFIX, bg-images.com, Bitget
