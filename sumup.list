@@ -1,5 +1,9 @@
-# Sumup 分流规则
-HOST-SUFFIX,sumup.com,英国节点
-HOST-SUFFIX,sumup.co.uk,英国节点
-HOST-SUFFIX,sumup.io,英国节点
-HOST-KEYWORD,sumup,英国节点
+# SumUp
+# QuantumultX filter_remote rule
+# Usage: https://raw.githubusercontent.com/<your-username>/<your-repo>/main/sumup.list, tag=SumUp, force-policy=PROXY, update-interval=86400, opt-parser=true, enabled=true
+HOST-SUFFIX,sumup.com
+HOST-SUFFIX,sumup.co.uk
+HOST-SUFFIX,sumup.me
+HOST-SUFFIX,sumup-mkt.com
+HOST-SUFFIX,sumup-analytics.com
+HOST-KEYWORD,sumup
