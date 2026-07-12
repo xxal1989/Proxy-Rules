@@ -1,0 +1,10 @@
+# Altery
+# QuantumultX filter_remote rule
+# Usage: https://raw.githubusercontent.com/<your-username>/<your-repo>/main/altery.list, tag=Altery, force-policy=PROXY, update-interval=86400, opt-parser=true, enabled=true
+
+HOST-SUFFIX,altery.com
+HOST-SUFFIX,app.altery.com
+HOST-SUFFIX,help.altery.com
+HOST-SUFFIX,status.altery.com
+HOST-SUFFIX,altery.onelink.me
+HOST-KEYWORD,altery
