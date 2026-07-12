@@ -1,0 +1,5 @@
+# Sumup 分流规则
+HOST-SUFFIX,sumup.com,英国策略组
+HOST-SUFFIX,sumup.co.uk,英国策略组
+HOST-SUFFIX,sumup.io,英国策略组
+HOST-KEYWORD,sumup,英国策略组
