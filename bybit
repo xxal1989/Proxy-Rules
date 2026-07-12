@@ -1,0 +1,9 @@
+# Bybit
+# QuantumultX filter_remote rule
+# Usage: https://raw.githubusercontent.com/<your-username>/<your-repo>/main/bybit.list, tag=Bybit, force-policy=PROXY, update-interval=86400, opt-parser=true, enabled=true
+
+HOST-SUFFIX,bybit.com
+HOST-SUFFIX,bytick.com
+HOST-SUFFIX,bybitcontent.com
+HOST-SUFFIX,bybit-support.zendesk.com
+HOST-KEYWORD,bybit
