@@ -1,0 +1,23 @@
+# > Kraken & Krak App (全面包含 API 与行情接口)
+# > 适用客户端: Quantumult X
+# > 更新时间: 2026-07-12
+
+# ----- Krak App (包含核心支付与钱包 API 后缀) -----
+HOST-SUFFIX, krak.app, Kraken
+HOST-SUFFIX, krak.com, Kraken
+
+# ----- Kraken 交易所、Pro 交易端与 API 网关 -----
+HOST-KEYWORD, kraken, Kraken
+HOST-SUFFIX, kraken.com, Kraken
+HOST-SUFFIX, krakenex.com, Kraken
+# 针对 Kraken 独立的 WebSocket 实时行情及交易 API 网关
+HOST-SUFFIX, kraken.io, Kraken
+
+# ----- Payward (母公司基础架构、用户验证与钱包 API) -----
+HOST-KEYWORD, payward, Kraken
+HOST-SUFFIX, payward.com, Kraken
+
+# ----- 行情数据、图表与 cdn 节点 -----
+HOST-SUFFIX, kfprod.com, Kraken
+HOST-SUFFIX, cryptowat.ch, Kraken
+HOST-SUFFIX, cryptowatch.ch, Kraken
