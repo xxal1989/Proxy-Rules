@@ -1,0 +1,18 @@
+# > Trading 212 分流规则
+# > 适用客户端: Quantumult X
+# > 更新时间: 2026-07-12
+
+# ----- Trading 212 官方核心域名 -----
+HOST-KEYWORD, trading212, Trading212
+HOST-SUFFIX, trading212.com, Trading212
+HOST-SUFFIX, trading212.co.uk, Trading212
+HOST-SUFFIX, trading212.de, Trading212
+
+# ----- 交易行情、API与数据服务 -----
+HOST-SUFFIX, t212.co, Trading212
+HOST-SUFFIX, t212api.com, Trading212
+HOST-SUFFIX, trading212-charts.com, Trading212
+
+# ----- 静态资源、CDN 与日志分析（确保App加载完整） -----
+HOST-SUFFIX, t212.io, Trading212
+HOST-SUFFIX, trading212.services, Trading212
