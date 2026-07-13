@@ -1,12 +1,6 @@
 # > UK.list (英区金融与合规支付 - 纯净版)
 # > 更新时间: 2026-07-14
 
-# ----- iFAST Global Bank (奕丰银行英国) -----
-HOST-KEYWORD, ifast
-HOST-SUFFIX, ifastgb.com
-HOST-SUFFIX, ifastfinancial.co.uk
-HOST-SUFFIX, ifastglobalbank.com
-
 # ----- Freetrade (英国免佣券商) -----
 HOST-KEYWORD, freetrade
 HOST-SUFFIX, freetrade.io
