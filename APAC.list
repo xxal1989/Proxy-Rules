@@ -1,0 +1,84 @@
+# > APAC.list (亚太主流交易所、Web3钱包与数字卡 - 纯净版)
+# > 更新时间: 2026-07-14
+
+# ----- Binance (币安) -----
+HOST-KEYWORD, binance
+HOST-SUFFIX, binance.com
+HOST-SUFFIX, bnbstatic.com
+HOST-SUFFIX, binance.charity
+HOST-SUFFIX, binance.co
+HOST-SUFFIX, binance.me
+HOST-SUFFIX, binance.us
+
+# ----- OKX (欧易) -----
+HOST-KEYWORD, okx
+HOST-SUFFIX, okx.com
+HOST-SUFFIX, okex.com
+HOST-SUFFIX, okx-dns.com
+HOST-SUFFIX, okx-dns1.com
+
+# ----- Bybit -----
+HOST-KEYWORD, bybit
+HOST-SUFFIX, bybit.com
+HOST-SUFFIX, bybit.io
+HOST-SUFFIX, bycointools.com
+HOST-SUFFIX, bybitglobal.com
+
+# ----- Bitget -----
+HOST-KEYWORD, bitget
+HOST-SUFFIX, bitget.com
+HOST-SUFFIX, bgapi.io
+HOST-SUFFIX, bitgetapp.com
+HOST-SUFFIX, bgexchange.com
+
+# ----- Bitget Wallet (原 BitKeep 钱包) -----
+HOST-KEYWORD, bitkeep
+HOST-SUFFIX, bitkeep.com
+HOST-SUFFIX, bitgetwallet.com
+HOST-SUFFIX, bitget.io
+HOST-SUFFIX, bgimages.com
+HOST-SUFFIX, bginflow.com
+HOST-SUFFIX, bg-images.com
+
+# ----- Gate.io (芝麻开门) -----
+HOST-KEYWORD, gateio
+HOST-SUFFIX, gate.io
+HOST-SUFFIX, gateio.co
+HOST-SUFFIX, gateio.services
+HOST-SUFFIX, gateimg.com
+
+# ----- BitMart -----
+HOST-KEYWORD, bitmart
+HOST-SUFFIX, bitmart.com
+HOST-SUFFIX, bitmart.news
+HOST-SUFFIX, bmico.com
+
+# ----- SafePal 钱包 -----
+HOST-KEYWORD, safepal
+HOST-SUFFIX, safepal.com
+HOST-SUFFIX, safepal.io
+
+# ----- UU Wallet -----
+HOST-KEYWORD, uuwallet
+HOST-SUFFIX, uuwallet.io
+HOST-SUFFIX, uuwallet.cc
+
+# ----- PokePay (随心付加密借记卡) -----
+HOST-KEYWORD, pokepay
+HOST-SUFFIX, pokepay.io
+HOST-SUFFIX, pokepay.app
+
+# ----- SAVO (数字资产卡) -----
+HOST-KEYWORD, savo
+HOST-SUFFIX, savo.io
+HOST-SUFFIX, savocard.com
+
+# ----- KAST (加密货币借记卡) -----
+HOST-KEYWORD, kast
+HOST-SUFFIX, kast.app
+HOST-SUFFIX, kastcard.com
+
+# ----- Starryblu (离岸数字资产卡) -----
+HOST-KEYWORD, starryblu
+HOST-SUFFIX, starryblu.com
+HOST-SUFFIX, starryblu.app
