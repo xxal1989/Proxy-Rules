@@ -1,0 +1,91 @@
+
+# AUTHOR: Summer
+# UPDATED: 2026-07-13
+# Quantumult X Rule
+
+################################################
+# Krak
+################################################
+
+HOST-SUFFIX,krak.app
+HOST-SUFFIX,krak.com
+HOST,api.krak.app
+HOST,app.krak.app
+HOST-KEYWORD,krak
+
+
+################################################
+# Kraken
+################################################
+
+HOST-SUFFIX,kraken.com
+HOST-SUFFIX,kraken.net
+HOST-SUFFIX,kraken.io
+
+HOST,api.kraken.com
+HOST,ws.kraken.com
+HOST,ws-auth.kraken.com
+
+HOST-SUFFIX,static.kraken.com
+
+HOST-KEYWORD,kraken
+
+
+################################################
+# Bitget Exchange
+################################################
+
+HOST-SUFFIX,bitget.com
+HOST-SUFFIX,bitgetapp.com
+
+HOST,api.bitget.com
+HOST,ws.bitget.com
+
+HOST-SUFFIX,bitgetstatic.com
+
+HOST-KEYWORD,bitget
+
+
+################################################
+# Bitget Wallet
+################################################
+
+HOST-SUFFIX,bitkeep.com
+HOST-SUFFIX,bitgetwallet.com
+
+HOST,api.bitkeep.com
+
+HOST-KEYWORD,bitkeep
+HOST-KEYWORD,bitgetwallet
+
+
+################################################
+# Freetrade
+################################################
+
+HOST-SUFFIX,freetrade.io
+HOST-SUFFIX,freetrade.co.uk
+
+HOST,api.freetrade.io
+
+HOST-KEYWORD,freetrade
+
+
+################################################
+# Trading 212
+################################################
+
+HOST-SUFFIX,trading212.com
+HOST-SUFFIX,trading212.eu
+
+HOST,api.trading212.com
+
+HOST-KEYWORD,trading212
+
+
+################################################
+# Common CDN / API
+################################################
+
+HOST-SUFFIX,cloudfront.net
+HOST-SUFFIX,amazonaws.com
