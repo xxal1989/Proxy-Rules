@@ -17,13 +17,6 @@ HOST-SUFFIX, okex.com
 HOST-SUFFIX, okx-dns.com
 HOST-SUFFIX, okx-dns1.com
 
-# ----- Bybit -----
-HOST-KEYWORD, bybit
-HOST-SUFFIX, bybit.com
-HOST-SUFFIX, bybit.io
-HOST-SUFFIX, bycointools.com
-HOST-SUFFIX, bybitglobal.com
-
 # ----- Gate.io (芝麻开门) -----
 HOST-KEYWORD, gateio
 HOST-SUFFIX, gate.io
