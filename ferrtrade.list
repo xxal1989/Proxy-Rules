@@ -1,0 +1,12 @@
+# > Freetrade (英国免佣/免税投资券商) 分流规则
+# > 适用客户端: Quantumult X
+# > 更新时间: 2026-07-14
+
+# ----- Freetrade 官方核心域名 -----
+HOST-KEYWORD, freetrade, Crypto
+HOST-SUFFIX, freetrade.io, Crypto
+HOST-SUFFIX, freetrade.app, Crypto
+
+# ----- 辅助 API 与身份认证/安全验证接口 -----
+HOST-SUFFIX, freetrade-prod.firebaseapp.com, Crypto
+HOST-SUFFIX, freetrade-api.com, Crypto
