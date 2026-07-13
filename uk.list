@@ -1,0 +1,35 @@
+# > UK.list (英区金融与合规支付 - 纯净版)
+# > 更新时间: 2026-07-14
+
+# ----- iFAST Global Bank (奕丰银行英国) -----
+HOST-KEYWORD, ifast
+HOST-SUFFIX, ifastgb.com
+HOST-SUFFIX, ifastfinancial.co.uk
+HOST-SUFFIX, ifastglobalbank.com
+
+# ----- Freetrade (英国免佣券商) -----
+HOST-KEYWORD, freetrade
+HOST-SUFFIX, freetrade.io
+HOST-SUFFIX, freetrade.app
+HOST-SUFFIX, freetrade-prod.firebaseapp.com
+HOST-SUFFIX, freetrade-api.com
+
+# ----- Trading 212 (英国/欧洲知名券商) -----
+HOST-KEYWORD, trading212
+HOST-SUFFIX, trading212.com
+HOST-SUFFIX, trading212.co.uk
+HOST-SUFFIX, trading212.de
+HOST-SUFFIX, t212.co
+HOST-SUFFIX, t212api.com
+HOST-SUFFIX, trading212-charts.com
+HOST-SUFFIX, t212.io
+HOST-SUFFIX, trading212.services
+
+# ----- Krak App (Kraken 官方全球支付卡) -----
+HOST-SUFFIX, krak.app
+HOST-SUFFIX, krak.com
+
+# ----- LemFi (跨境汇款) -----
+HOST-KEYWORD, lemfi
+HOST-SUFFIX, lemfi.com
+HOST-SUFFIX, lemonade.finance
