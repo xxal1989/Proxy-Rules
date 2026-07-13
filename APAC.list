@@ -82,3 +82,9 @@ HOST-SUFFIX, kastcard.com
 HOST-KEYWORD, starryblu
 HOST-SUFFIX, starryblu.com
 HOST-SUFFIX, starryblu.app
+
+# ----- PayPal (全球电子钱包) -----
+HOST-KEYWORD, paypal
+HOST-SUFFIX, paypal.com
+HOST-SUFFIX, paypalobjects.com
+HOST-SUFFIX, paypal.me
