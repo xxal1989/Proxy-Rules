@@ -24,22 +24,6 @@ HOST-SUFFIX, bybit.io
 HOST-SUFFIX, bycointools.com
 HOST-SUFFIX, bybitglobal.com
 
-# ----- Bitget -----
-HOST-KEYWORD, bitget
-HOST-SUFFIX, bitget.com
-HOST-SUFFIX, bgapi.io
-HOST-SUFFIX, bitgetapp.com
-HOST-SUFFIX, bgexchange.com
-
-# ----- Bitget Wallet (原 BitKeep 钱包) -----
-HOST-KEYWORD, bitkeep
-HOST-SUFFIX, bitkeep.com
-HOST-SUFFIX, bitgetwallet.com
-HOST-SUFFIX, bitget.io
-HOST-SUFFIX, bgimages.com
-HOST-SUFFIX, bginflow.com
-HOST-SUFFIX, bg-images.com
-
 # ----- Gate.io (芝麻开门) -----
 HOST-KEYWORD, gateio
 HOST-SUFFIX, gate.io
