@@ -1,0 +1,42 @@
+# > Europe.list (欧洲金融、数字银行与跨国支付 - 纯净版)
+# > 更新时间: 2026-07-14
+
+# ----- Wise (跨境借记卡) -----
+HOST-KEYWORD, wise
+HOST-SUFFIX, wise.com
+HOST-SUFFIX, transferwise.com
+
+# ----- PayPal (全球电子钱包) -----
+HOST-KEYWORD, paypal
+HOST-SUFFIX, paypal.com
+HOST-SUFFIX, paypalobjects.com
+HOST-SUFFIX, paypal.me
+
+# ----- Kraken (海妖交易所) -----
+HOST-KEYWORD, kraken
+HOST-SUFFIX, kraken.com
+HOST-SUFFIX, krakenex.com
+HOST-SUFFIX, kraken.io
+HOST-KEYWORD, payward
+HOST-SUFFIX, payward.com
+HOST-SUFFIX, kfprod.com
+HOST-SUFFIX, cryptowat.ch
+HOST-SUFFIX, cryptowatch.ch
+
+# ----- Coinbase (合规交易所) -----
+HOST-KEYWORD, coinbase
+HOST-SUFFIX, coinbase.com
+HOST-SUFFIX, coinbasestatic.com
+HOST-SUFFIX, cbhq.net
+HOST-SUFFIX, prime.coinbase.com
+
+# ----- SumUp (欧洲移动支付与收单卡) -----
+HOST-KEYWORD, sumup
+HOST-SUFFIX, sumup.com
+HOST-SUFFIX, sumup.io
+HOST-SUFFIX, sumup.co.uk
+
+# ----- Altery (欧洲数字钱包与借记卡) -----
+HOST-KEYWORD, altery
+HOST-SUFFIX, altery.com
+HOST-SUFFIX, altery.app
