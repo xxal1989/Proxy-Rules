@@ -19,21 +19,6 @@ HOST-SUFFIX, trading212-charts.com
 HOST-SUFFIX, t212.io
 HOST-SUFFIX, trading212.services
 
-# ----- Kraken (海妖交易所) -----
-HOST-KEYWORD, kraken
-HOST-SUFFIX, kraken.com
-HOST-SUFFIX, krakenex.com
-HOST-SUFFIX, kraken.io
-HOST-KEYWORD, payward
-HOST-SUFFIX, payward.com
-HOST-SUFFIX, kfprod.com
-HOST-SUFFIX, cryptowat.ch
-HOST-SUFFIX, cryptowatch.ch
-
-# ----- Krak App (Kraken 官方全球支付卡) -----
-HOST-SUFFIX, krak.app
-HOST-SUFFIX, krak.com
-
 # ----- SumUp (欧洲移动支付与收单卡) -----
 HOST-KEYWORD, sumup
 HOST-SUFFIX, sumup.com
