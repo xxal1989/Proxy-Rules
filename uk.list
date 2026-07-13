@@ -2,10 +2,10 @@
 # > 更新时间: 2026-07-14
 
 # ----- iFAST Global Bank (奕丰银行英国) -----
-HOST-KEYWORD, ifast
-HOST-SUFFIX, ifastgb.com
-HOST-SUFFIX, ifastfinancial.co.uk
-HOST-SUFFIX, ifastglobalbank.com
+#HOST-KEYWORD, ifast
+#HOST-SUFFIX, ifastgb.com
+#HOST-SUFFIX, ifastfinancial.co.uk
+#HOST-SUFFIX, ifastglobalbank.com
 
 # ----- Freetrade (英国免佣券商) -----
 HOST-KEYWORD, freetrade
