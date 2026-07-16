@@ -1,0 +1,18 @@
+# Title: Bybit EU Split-Tunneling Rule List
+# Description: Optimized routing for Bybit European Union compliance.
+# Date: 2026-07-16
+
+# --- Bybit EU 专属合规域名 ---
+DOMAIN-SUFFIX,bybit.eu
+DOMAIN-SUFFIX,bybit-eu.com
+DOMAIN-KEYWORD,bybit.eu
+
+# --- Bybit 核心 API 与静态资源 ---
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit.net
+DOMAIN-SUFFIX,bybit-internal.com
+
+# --- CDN 与辅助加速域名 ---
+DOMAIN,bybit-prod.akamaized.net
+DOMAIN,bybit-assets.com
