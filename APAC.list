@@ -65,3 +65,9 @@ HOST-KEYWORD, paypal
 HOST-SUFFIX, paypal.com
 HOST-SUFFIX, paypalobjects.com
 HOST-SUFFIX, paypal.me
+
+# > Payfun (数字钱包与加密联名卡)
+HOST-KEYWORD, payfun
+HOST-SUFFIX, payfun.com
+HOST-SUFFIX, payfun.app
+
