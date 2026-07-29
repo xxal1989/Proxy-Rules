@@ -10,3 +10,6 @@ DOMAIN-SUFFIX, sardine.ai
 DOMAIN-KEYWORD, walletconnect
 DOMAIN-SUFFIX, walletconnect.org
 DOMAIN-SUFFIX, walletconnect.com
+# ----- OneSignal 消息推送服务 -----
+DOMAIN-KEYWORD, onesignal
+DOMAIN-SUFFIX, onesignal.com
