@@ -1,6 +1,10 @@
-
-# ----- ether.fi (DeFi 与 Cash 卡) -----
+# ----- ether.fi 及配套风控服务 -----
 DOMAIN-KEYWORD, etherfi
 DOMAIN-KEYWORD, ether.fi
 DOMAIN-SUFFIX, ether.fi
 DOMAIN-SUFFIX, etherfi.store
+
+# ----- Sardine (Web3 / 支付反欺诈风控服务) -----
+DOMAIN-KEYWORD, sardine
+DOMAIN-SUFFIX, sardine.ai
+
