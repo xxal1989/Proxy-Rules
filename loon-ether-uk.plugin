@@ -1,10 +1,12 @@
-# ----- ether.fi 及配套风控服务 -----
+# ----- ether.fi (DeFi 与 Cash 卡主站 & API) -----
 DOMAIN-KEYWORD, etherfi
 DOMAIN-KEYWORD, ether.fi
 DOMAIN-SUFFIX, ether.fi
 DOMAIN-SUFFIX, etherfi.store
 
-# ----- Sardine (Web3 / 支付反欺诈风控服务) -----
+# ----- Web3 核心配套服务 (支付风控 & 钱包连接) -----
 DOMAIN-KEYWORD, sardine
 DOMAIN-SUFFIX, sardine.ai
-
+DOMAIN-KEYWORD, walletconnect
+DOMAIN-SUFFIX, walletconnect.org
+DOMAIN-SUFFIX, walletconnect.com
