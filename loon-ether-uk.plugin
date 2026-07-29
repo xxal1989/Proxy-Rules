@@ -13,3 +13,6 @@ DOMAIN-SUFFIX, walletconnect.com
 # ----- OneSignal 消息推送服务 -----
 DOMAIN-KEYWORD, onesignal
 DOMAIN-SUFFIX, onesignal.com
+# ----- Web3Modal & WalletConnect 基础设施 -----
+DOMAIN-KEYWORD, web3modal
+DOMAIN-SUFFIX, web3modal.com
