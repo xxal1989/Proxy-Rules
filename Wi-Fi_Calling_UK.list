@@ -1,0 +1,29 @@
+# 英国 SIM 卡 Wi-Fi Calling 规则 (Quantumult X 专用)
+
+# 地区检测
+HOST-SUFFIX, gspe1-ssl.ls.apple.com, UK_Node
+
+# 沃达丰 (Vodafone)
+HOST-SUFFIX, entsrv-uk.vodafone.com, UK_Node
+HOST-SUFFIX, vuk-gto.prod.ondemandconnectivity.com, UK_Node
+HOST-SUFFIX, epdg.epc.mnc015.mcc234.pub.3gppnetwork.org, UK_Node
+HOST-SUFFIX, ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org, UK_Node
+HOST-SUFFIX, ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org, UK_Node
+HOST-KEYWORD, mcc234, UK_Node
+IP-CIDR, 88.82.0.0/19, UK_Node, no-resolve
+IP-CIDR, 148.252.160.0/19, UK_Node, no-resolve
+
+# CMLink UK EE
+IP-CIDR, 46.68.0.0/17, UK_Node, no-resolve
+
+# Giffgaff
+HOST-SUFFIX, giffgaff.com, UK_Node
+IP-CIDR, 87.194.0.0/16, UK_Node, no-resolve
+
+# VOXI
+HOST, vfgb.idemia.io, UK_Node
+IP-CIDR, 148.252.160.0/19, UK_Node, no-resolve
+
+# CTE / EE
+HOST-SUFFIX, ee.co.uk, UK_Node
+IP-CIDR, 31.94.0.0/16, UK_Node, no-resolve
