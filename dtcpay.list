@@ -4,3 +4,17 @@ HOST-KEYWORD, dtcpay
 HOST-SUFFIX, dtcpay.com
 #HOST-SUFFIX, dtc.pay
 
+# ----- DTC Pay 发卡与卡片底座服务 (必加) -----
+HOST-KEYWORD, digitalcardservice
+HOST-SUFFIX, digitalcardservice.com
+
+# ----- Web3 & 钱包连接服务 -----
+#HOST-KEYWORD, walletconnect, direct
+#HOST-SUFFIX, walletconnect.org, direct
+#HOST-SUFFIX, walletconnect.com, direct
+
+# ----- 风控与 KYC 认证组件 -----
+#HOST-KEYWORD, sumsub, direct
+#HOST-SUFFIX, sumsub.com, direct
+#HOST-KEYWORD, sardine, direct
+#HOST-SUFFIX, sardine.ai, direct
