@@ -1,16 +1,6 @@
 
-# ----- DTC Pay (主站与支付网关) -----
-DOMAIN-KEYWORD, dtcpay
-DOMAIN-SUFFIX, dtcpay.com
-#DOMAIN-SUFFIX, dtc.pay
+# ----- DTC Pay 主站与接口 -----
+HOST-KEYWORD, dtcpay
+HOST-SUFFIX, dtcpay.com
+#HOST-SUFFIX, dtc.pay
 
-# ----- Web3 & 支付基础设施 -----
-#DOMAIN-KEYWORD, walletconnect
-#DOMAIN-SUFFIX, walletconnect.org
-#DOMAIN-SUFFIX, walletconnect.com
-
-# ----- KYC 身份认证与风控组件 (DTC Pay 常用) -----
-#DOMAIN-KEYWORD, sumsub
-#DOMAIN-SUFFIX, sumsub.com
-#DOMAIN-KEYWORD, sardine
-#DOMAIN-SUFFIX, sardine.ai
