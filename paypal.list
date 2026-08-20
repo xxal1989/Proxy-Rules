@@ -1,0 +1,6 @@
+# > PayPal 域名分流
+GEOIP,paypal
+DOMAIN-KEYWORD,paypal
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypalobjects.com
