@@ -60,11 +60,14 @@ HOST-KEYWORD, starryblu
 HOST-SUFFIX, starryblu.com
 HOST-SUFFIX, starryblu.app
 
-# ----- PayPal (全球电子钱包) -----
-HOST-KEYWORD, paypal
-HOST-SUFFIX, paypal.com
-HOST-SUFFIX, paypalobjects.com
-HOST-SUFFIX, paypal.me
+# NAME: MEXC
+
+HOST-SUFFIX,mexc.com
+HOST-SUFFIX,mexc.co
+HOST-SUFFIX,mexc.me
+HOST-SUFFIX,mexc.link
+HOST-SUFFIX,mexc.org
+HOST-SUFFIX,mexc.dev
 
 # > Payfun (数字钱包与加密联名卡)
 HOST-KEYWORD, payfun
