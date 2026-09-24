@@ -1,6 +1,25 @@
-# > PayPal 域名分流
-GEOIP,paypal
-DOMAIN-KEYWORD,paypal
+# PayPal
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,paypalcommunity.com
+DOMAIN-SUFFIX,pypl.com
+
+# PayPal Services
+DOMAIN-SUFFIX,venmo.com
+DOMAIN-SUFFIX,xoom.com
+
+# Braintree
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintreepayments.com
+DOMAIN-SUFFIX,braintree-api.com
+
+# Paydiant
+DOMAIN-SUFFIX,paydiant.com
+
+# Card.io
+DOMAIN-SUFFIX,card.io
+
+# PayPal Client
+USER-AGENT,PayPal*
