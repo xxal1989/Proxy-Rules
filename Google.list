@@ -1,0 +1,142 @@
+# ==============================================================================
+# 规则名称: Google 分流规则 (优化纯净版)
+# 适用客户端: Loon / Surge / Quantumult X / Shadowrocket
+# 更新说明:
+# 1. 移除了泛 KEYWORD 匹配，避免匹配冲突与内存冗余
+# 2. 补齐 .goog 顶级域名、Google 核心云平台与 AI 服务
+# 3. 采用 IP-ASN 替代已过期的少量静态 CIDR
+# 4. 国内直连白名单单独置于文末，可按需挂载为 DIRECT 策略
+# ==============================================================================
+
+# > Google 核心顶级域及基础服务
+DOMAIN-SUFFIX,goog
+DOMAIN-SUFFIX,google
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,1e100.net
+DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,g.dev
+DOMAIN-SUFFIX,g.page
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,google.dev
+DOMAIN-SUFFIX,googleblog.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,googlephotos.com
+DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,googlescholar.com
+DOMAIN-SUFFIX,googlesource.com
+DOMAIN-SUFFIX,googlestore.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gvt0.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+
+# > Google AI & DeepMind
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+
+# > Google API & 开发者生态
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,angular.io
+DOMAIN-SUFFIX,angulardart.org
+DOMAIN-SUFFIX,apigee.com
+DOMAIN-SUFFIX,bazel.build
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,crbug.com
+DOMAIN-SUFFIX,dart.dev
+DOMAIN-SUFFIX,dartlang.org
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,flutter.dev
+DOMAIN-SUFFIX,fuchsia.dev
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,go.dev
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googlecode.com
+DOMAIN-SUFFIX,kaggle.com
+DOMAIN-SUFFIX,kaggle.io
+DOMAIN-SUFFIX,material.io
+DOMAIN-SUFFIX,polymer-project.org
+DOMAIN-SUFFIX,tensorflow.org
+DOMAIN-SUFFIX,tfhub.dev
+DOMAIN-SUFFIX,v8.dev
+DOMAIN-SUFFIX,web.dev
+DOMAIN-SUFFIX,webmproject.org
+DOMAIN-SUFFIX,webrtc.org
+
+# > Google 广告、数据分析及营销
+DOMAIN-SUFFIX,2mdn.net
+DOMAIN-SUFFIX,admeld.com
+DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,adsense.com
+DOMAIN-SUFFIX,adwords.com
+DOMAIN-SUFFIX,clickserver.googleads.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleanalytics.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,googletraveladservices.com
+
+# > 社交、通讯与效率办公
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN-SUFFIX,chat.gle
+DOMAIN-SUFFIX,dialogflow.com
+DOMAIN-SUFFIX,feedburner.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,gsuite.com
+DOMAIN-SUFFIX,meet.new
+DOMAIN-SUFFIX,snapseed.com
+DOMAIN-SUFFIX,waze.com
+DOMAIN,voice.telephony.goog
+
+# > 安全、证书及云基础设施
+DOMAIN-SUFFIX,certificate-transparency.org
+DOMAIN-SUFFIX,chronicle.security
+DOMAIN-SUFFIX,cloudfunctions.net
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,pki.goog
+DOMAIN-SUFFIX,privacysandbox.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,widevine.com
+
+# > 关键词兜底（保留强特征关键词）
+DOMAIN-KEYWORD,appspot
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,gmail
+
+# > 客户端 UA
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*
+
+# > IP 与 ASN 覆盖
+IP-ASN,15169,no-resolve
+IP-ASN,396982,no-resolve
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
+
+# ==============================================================================
+# 可选直连部分（如需代理请注释掉此段，若作为国内直连分流请单独挂 DIRECT）
+# ==============================================================================
+# DOMAIN-SUFFIX,google.cn
+# DOMAIN-SUFFIX,g.cn
+# DOMAIN-SUFFIX,gstatic.cn
+# DOMAIN-SUFFIX,googleapis.cn
+# DOMAIN-SUFFIX,recaptcha-cn.net
+# DOMAIN-SUFFIX,gstatic-cn.com
+# DOMAIN-SUFFIX,googleadservices-cn.com
