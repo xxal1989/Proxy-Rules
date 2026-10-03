@@ -29,3 +29,27 @@ HOST-SUFFIX, sumup.co.uk
 HOST-KEYWORD, lemfi
 HOST-SUFFIX, lemfi.com
 HOST-SUFFIX, lemonade.finance
+
+# Title: ether.fi Rule List
+# Description: Routing for ether.fi Cash Card & Web3
+
+# --- ether.fi (DeFi 与 Cash 卡主站 & API) ---
+HOST-KEYWORD, etherfi
+HOST-KEYWORD, ether.fi
+HOST-SUFFIX, ether.fi
+HOST-SUFFIX, etherfi.store
+
+# --- Web3 核心配套服务 (支付风控 & 钱包连接) ---
+HOST-KEYWORD, sardine
+HOST-SUFFIX, sardine.ai
+HOST-KEYWORD, walletconnect
+HOST-SUFFIX, walletconnect.org
+HOST-SUFFIX, walletconnect.com
+
+# --- OneSignal 消息推送服务 ---
+HOST-KEYWORD, onesignal
+HOST-SUFFIX, onesignal.com
+
+# --- Web3Modal & WalletConnect 基础设施 ---
+HOST-KEYWORD, web3modal
+HOST-SUFFIX, web3modal.com
