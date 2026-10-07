@@ -1,5 +1,9 @@
 # > UK.list (英区金融与合规支付 - 纯净版)
-# > 更新时间: 2026-07-14
+# > 更新时间: 2026-09-14
+
+# > Pulsar Money 
+DOMAIN-SUFFIX,pulsar.money,Proxy
+DOMAIN-KEYWORD,pulsarmoney,Proxy
 
 # ----- Freetrade (英国免佣券商) -----
 HOST-KEYWORD, freetrade
